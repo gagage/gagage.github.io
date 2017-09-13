@@ -25,17 +25,16 @@
 			ga("create", "{{ site.google_analytics_key }}", "auto");
 			ga("send", "pageview");
 		</script>
+		<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='sticky.js'></script>
+<link href='sticky.css' rel='stylesheet' type='text/css'>
+
 	{% endif %}
 </head>
 	<body>
-	    	<header id="mainHeader">
-			<div class="container">
-				<div class="company-name">
-					<a href="{{ site.baseurl }}/">
-						<span class="dark-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/dark.svg" alt="dark frisco "></span>
-						<span class="light-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/light.svg" alt="light frisco "></span>
-					</a>
-				</div>
+	    <div class='header'>Header</div>
+<div class='nav'>Navigation</div>
+<div class='content'>
 				{% include navigation.html %}
 				<p class="editor-link"><a style="display:inline;" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a></p>
 			</div>
