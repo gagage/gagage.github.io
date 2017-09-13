@@ -28,12 +28,19 @@
 	{% endif %}
 </head>
 	<body>
-		<header>
+	    <header id="mainHeader">
 			<div class="container">
-				<h1 class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" alt="Urban" width="150"></a></h1>
+				<div class="company-name">
+					<a href="{{ site.baseurl }}/">
+						<span class="dark-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/dark.svg" alt="dark frisco logo"></span>
+						<span class="light-logo"><img width="104" height="38" src="{{ site.baseurl }}/images/logo/light.svg" alt="light frisco logo"></span>
+					</a>
+				</div>
 				{% include navigation.html %}
+				<p class="editor-link"><a style="display:inline;" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a></p>
 			</div>
 		</header>
+	
 		{{ content }}
 
 		<footer class="diagonal">
