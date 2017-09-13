@@ -1,0 +1,37 @@
+---
+title:
+---
+
+<section class="hero diagonal">
+	<div class="container">
+		<h2 class="editable">A platform for farmers</h2>
+		<p class="subtext editable"><strong></strong>Georgian Almond Growers Associations aims to pin Georgia on the world almond production map.</p>
+		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container halves">
+		<div>
+			<h3 class="editable">Some of our partners</h3>
+			<p class="editable"></p>
+			<p class="editable"><a href="{{ site.baseurl }}/portfolio/">View all partners &rarr;</a></p>
+		</div>
+		<div>
+			<ul class="image-grid">
+				{% for client in site.clients limit: 4 %}
+					<li><a href="{{ site.baseurl }}{{ client.url }}"><img src="{% include relative-src.html src=client.image_path %}" /></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal alternate">
+	<div class="container halves">
+	
+		<div>
+			<p class="editable">The demand for almonds is increasing all over the world every year. This lead Foreign investors to look for new locations to set up almond orchards. Georgia has an extraordinary opportunity to become a hot point for the almond production: the climate and the soil of the eastern Georgia makes excellent conditions to commercially grow almonds.</p>
+		</div>
+	</div>
+</section>
