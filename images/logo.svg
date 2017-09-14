@@ -15,7 +15,10 @@
    id="svg4258"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/machine/Desktop/text97.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4260" />
   <sodipodi:namedview
@@ -25,8 +28,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.25"
-     inkscape:cx="177.84627"
+     inkscape:zoom="2.15"
+     inkscape:cx="182.36618"
      inkscape:cy="60"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -191,7 +194,7 @@
        y="998.58838"
        x="218.27148"
        transform="scale(0.95172969,1.0507185)"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.82481384px;font-family:'BPG Glaho WEB Caps';-inkscape-font-specification:BPGGlahoWEBCaps;writing-mode:lr-tb;fill:#695d49;fill-opacity:1;fill-rule:nonzero;stroke:none;"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.82481384px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';writing-mode:lr-tb;fill:#695d49;fill-opacity:1;fill-rule:nonzero;stroke:none;font-style:normal;"
        id="text96"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
@@ -200,7 +203,7 @@
          x="218.27148"
          y="998.58838"
          id="tspan3884"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.52035522px;font-family:'BPG Glaho WEB Caps';-inkscape-font-specification:'BPG Glaho WEB Caps';text-align:center;text-anchor:middle;fill:#695d49;fill-opacity:1">GAGA</tspan>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.52035522px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans';text-align:center;text-anchor:middle;fill:#695d49;fill-opacity:1;">GAGA</tspan>
     </text>
   </g>
 </svg>
